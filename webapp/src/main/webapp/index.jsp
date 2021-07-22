@@ -21,7 +21,7 @@
 <body>
 <div class="header">
   <h1>Sample Website</h1>
-  <p>Hello JJTech World!</p>
+  <p>Hello Pa Musongwe!</p>
 </div>
 </body>
 </html>
