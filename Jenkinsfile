@@ -33,13 +33,13 @@ pipeline {
           protocol: 'http',
           nexusUrl: 'ec2-34-219-128-244.us-west-2.compute.amazonaws.com:8081',
           groupId: 'MyWebApp',
-          version: '1.0-SNAPSHOT'
+          version: '1.0-SNAPSHOT',
           repository: 'maven-snapshots',
           credentialsId: '1c6d2590-a01d-4ba1-a516-ac128254d645',
           artifacts: [
             [artifactId: "MyWebApp",
             classifier: '',
-            file: 'MyWebApp/target/MyWebApp.war'
+            file: 'MyWebApp/target/MyWebApp.war',
             type: 'war'
             ]
           ]
