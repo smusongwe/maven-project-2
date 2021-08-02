@@ -9,7 +9,7 @@
 .header {
   padding: 80px;
   text-align: center;
-  background: #4b1abc;
+  background: #bc1a42;
   color: #ffffff;
 }
 /* Increase the font size of the heading */
